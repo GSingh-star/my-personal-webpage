@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .about, .projects, .blog, .contact {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .about img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>User's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="your-photo.jpg" alt="User's Photo" width="150">
+            <p>Hello! I'm [User's Name], an officer at Indian Oil Corporation Limited (IOCL). I joined IOCL in 2018 and have been passionate about my work ever since. I have a keen interest in sexual health, neurochemistry, and financial markets. In my free time, I enjoy playing games like 'World of Warcraft' and exploring new investment opportunities.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p>Here you can showcase some of your key projects. For example, your work with Zerodha accounts or your website project for artdart.in.</p>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Share your thoughts and insights on various topics. This could include articles on financial markets, investment strategies, or any other interests you have.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at: [Your Email Address].</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 User's Name</p>
+    </footer>
+</body>
+</html>
